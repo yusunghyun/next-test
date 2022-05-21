@@ -9,7 +9,7 @@ module.exports = {
     // "plugin:react/recommended",
     // "airbnb",
     "airbnb-typescript",
-    // "plugin:prettier/recommended",
+    "plugin:prettier/recommended",
     // "plugin:react/jsx-runtime",
   ],
   parserOptions: {
