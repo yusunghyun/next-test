@@ -1,0 +1,6 @@
+/src/graphql/*
+/src/apps/**/graphql/*
+./*.js
+./*.cjs
+./*.mjs
+.yarn
