@@ -7,7 +7,7 @@ const Home: NextPage = (): JSX.Element => {
   return (
     <div className={styles.container}>
       <Header />
-      <Link href="/about">
+      <Link href='/about'>
         <a>About Page</a>
       </Link>
       <p>Hello Next.js</p>
