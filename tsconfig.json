@@ -13,8 +13,18 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "jsxImportSource": "@emotion/react",
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["/*"],
+      "@apps/*": ["apps/*"],
+      "@lib/*": ["lib/*"],
+      "@shared/*": ["shared/*"],
+      "@graphql": ["graphql/index"]
+    },
     "incremental": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
+  // "files": ["src/shared/types/images.d.ts"]
 }
